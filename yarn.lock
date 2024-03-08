@@ -155,12 +155,12 @@
     "@sap-cloud-sdk/util" "^2.15.0"
     axios "^0.27.1"
 
-"@sap-cloud-sdk/resilience@3.12.0":
-  version "3.12.0"
-  resolved "https://registry.npmjs.org/@sap-cloud-sdk/resilience/-/resilience-3.12.0.tgz"
-  integrity sha512-+6RusX8PduUEvGTF4+mwnQ4bmS2HOG1qUx4s6sXzYig6HnuqWZxT0JLPLNA8iupQ7TZXGilT/M00uZJIyH/mWw==
+"@sap-cloud-sdk/resilience@3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@sap-cloud-sdk/resilience/-/resilience-3.12.1.tgz#f96e04ffcea049bfcc14280887bddf729d19a5c3"
+  integrity sha512-VgBvEHXC40MhIv9VDRH00b9p8Qt1gqgrSZLQBTm4nOgo2vUHXvJCUnwdAPdL/qviXFohsvUcZtWG4I+GxLc37A==
   dependencies:
-    "@sap-cloud-sdk/util" "^3.12.0"
+    "@sap-cloud-sdk/util" "^3.12.1"
     async-retry "^1.3.3"
     axios "^1.6.7"
     opossum "^8.1.3"
@@ -178,16 +178,16 @@
     winston "^3.8.2"
     winston-transport "^4.5.0"
 
-"@sap-cloud-sdk/util@^3.12.0":
-  version "3.12.0"
-  resolved "https://registry.npmjs.org/@sap-cloud-sdk/util/-/util-3.12.0.tgz"
-  integrity sha512-fxOaXLzLYAtBOCyFjAdCNJ8/YzBa3aH4N0lbHytyDWCscehKsApA1W2QjYTlbBRZ3mti5Isspd5eWuwZsP2fyA==
+"@sap-cloud-sdk/util@^3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@sap-cloud-sdk/util/-/util-3.12.1.tgz#7bb2f5a92b415dd3f5547943a4890a7f4e5400dc"
+  integrity sha512-cd/nKLGQ+c9eEnkPxyRD/VIwfBBhaj8TSNjavjZo0WUnUXRvU9/nX/k4vsBbgApuyBGw7o5lHfB0TABtLFOU6Q==
   dependencies:
     axios "^1.6.7"
     chalk "^4.1.0"
     logform "^2.6.0"
     voca "^1.4.1"
-    winston "^3.11.0"
+    winston "^3.12.0"
     winston-transport "^4.7.0"
 
 "@sap-ux/fe-fpm-writer@0.24.7":
@@ -581,19 +581,10 @@ axios@^0.27.1:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
 
-axios@^1, axios@^1.6.7:
+axios@^1, axios@^1.6, axios@^1.6.7:
   version "1.6.7"
   resolved "https://registry.npmjs.org/axios/-/axios-1.6.7.tgz"
   integrity sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==
-  dependencies:
-    follow-redirects "^1.15.4"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
-
-axios@^1.6:
-  version "1.6.5"
-  resolved "https://registry.npmjs.org/axios/-/axios-1.6.5.tgz"
-  integrity sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==
   dependencies:
     follow-redirects "^1.15.4"
     form-data "^4.0.0"
@@ -3370,7 +3361,24 @@ winston-transport@^4.5.0, winston-transport@^4.7.0:
     readable-stream "^3.6.0"
     triple-beam "^1.3.0"
 
-winston@^3.11.0, winston@^3.8.2:
+winston@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.12.0.tgz#a5d965a41d3dc31be5408f8c66e927958846c0d0"
+  integrity sha512-OwbxKaOlESDi01mC9rkM0dQqQt2I8DAUMRLZ/HpbwvDXm85IryEHgoogy5fziQy38PntgZsLlhAYHz//UPHZ5w==
+  dependencies:
+    "@colors/colors" "^1.6.0"
+    "@dabh/diagnostics" "^2.0.2"
+    async "^3.2.3"
+    is-stream "^2.0.0"
+    logform "^2.4.0"
+    one-time "^1.0.0"
+    readable-stream "^3.4.0"
+    safe-stable-stringify "^2.3.1"
+    stack-trace "0.0.x"
+    triple-beam "^1.3.0"
+    winston-transport "^4.7.0"
+
+winston@^3.8.2:
   version "3.11.0"
   resolved "https://registry.npmjs.org/winston/-/winston-3.11.0.tgz"
   integrity sha512-L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==
