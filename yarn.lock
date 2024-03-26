@@ -215,10 +215,10 @@
   dependencies:
     antlr4 "4.9.3"
 
-"@sap/cds-dk@7.6.0":
-  version "7.6.0"
-  resolved "https://registry.npmjs.org/@sap/cds-dk/-/cds-dk-7.6.0.tgz"
-  integrity sha512-6aRBpLe1KSxkVhLgMYBGLzjie+gApErmd37LO+uERee3wr0j7L8i6KVsRT+O84ODX5IMvIKrce36EmvvgIyNGA==
+"@sap/cds-dk@7.8.0":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@sap/cds-dk/-/cds-dk-7.8.0.tgz#5426bba477f58dc3d6ef2894bfd7cf8127c0669b"
+  integrity sha512-D8wN15BIzQlK+NhZqH5Q/gU1USg6bddvI8UCLuQkGID1mZjwg64Q0gdXoIjDMV9C+bftotTUF77ohhPmYSyOcg==
   dependencies:
     "@sap/cds" "^7"
     "@sap/cds-foss" "^5.0.0"
@@ -581,19 +581,10 @@ axios@^0.27.1:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
 
-axios@^1, axios@^1.6.7:
+axios@^1, axios@^1.6, axios@^1.6.7:
   version "1.6.7"
   resolved "https://registry.npmjs.org/axios/-/axios-1.6.7.tgz"
   integrity sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==
-  dependencies:
-    follow-redirects "^1.15.4"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
-
-axios@^1.6:
-  version "1.6.5"
-  resolved "https://registry.npmjs.org/axios/-/axios-1.6.5.tgz"
-  integrity sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==
   dependencies:
     follow-redirects "^1.15.4"
     form-data "^4.0.0"
