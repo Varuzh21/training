@@ -242,17 +242,6 @@
   resolved "https://registry.npmjs.org/@sap/cds-fiori/-/cds-fiori-1.1.0.tgz"
   integrity sha512-dj+OMS3bpbYx7pO/SUSbZkt2KIs2RiAnaxhO+RZmL89DR8r67MEft2/vQbg00AGoH0Al/NKK0AFiHHyNL/+CWg==
 
-"@sap/cds-foss@^4":
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/@sap/cds-foss/-/cds-foss-4.0.2.tgz"
-  integrity sha512-XY8lmLu3NgGVkOdX9N9L91dWldhu//iQqJF98rqHAtCtdoOKfKCtiYafSVruAmVEzQ3tUWsGXNKCtpHdoXYuLA==
-  dependencies:
-    big.js "^6.1.1"
-    generic-pool "^3.8.2"
-    uuid "^9.0.0"
-    xmlbuilder "^15.1.1"
-    yaml "^2.2.2"
-
 "@sap/cds-foss@^5.0.0":
   version "5.0.0"
   resolved "https://registry.npmjs.org/@sap/cds-foss/-/cds-foss-5.0.0.tgz"
@@ -271,19 +260,10 @@
     "@sap/hdi-deploy" "^4"
     axios "^1"
 
-"@sap/cds@7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@sap/cds/-/cds-7.2.0.tgz"
-  integrity sha512-UKWDZuqND0NfPLUYBCn/hZaOpdbIygULwktmAqcsCeil4Dt7x8/316RRWKTN6NV13r6v6AvaOlKa7Uofj9j3RA==
-  dependencies:
-    "@sap/cds-compiler" "^4"
-    "@sap/cds-fiori" "^1"
-    "@sap/cds-foss" "^4"
-
-"@sap/cds@>=5.6.0", "@sap/cds@^7":
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/@sap/cds/-/cds-7.7.0.tgz#a0c6a372d108d46560855342e0e28a426b189aaa"
-  integrity sha512-5+Yjn1WDlaycLQ1FlsMn6DGgf+U6/qpBT+Dq0B7RXlwPXtginjVMtPwf1gtf5GAUCt1QwSMekeYhVR9ukj1JnQ==
+"@sap/cds@7.8.0", "@sap/cds@>=5.6.0", "@sap/cds@^7":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@sap/cds/-/cds-7.8.0.tgz#1eb2f4db14878673abfaae617fd49e36d2f95565"
+  integrity sha512-eprPzuSZsLnA4O9aU2Xgt1s7g0906fr2rZZQb76vRDwY1j/IXvRV4ijTB4nmy2RCQRMHXVQ2P5RuFCS/P/5cMw==
   dependencies:
     "@cap-js/cds-types" "<1"
     "@sap/cds-compiler" "^4"
@@ -3277,11 +3257,6 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
-
-uuid@^9.0.0:
-  version "9.0.1"
-  resolved "https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz"
-  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vary@~1.1.2:
   version "1.1.2"
